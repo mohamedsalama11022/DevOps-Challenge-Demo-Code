@@ -1,13 +1,3 @@
-# FROM python:alpine 
-# WORKDIR /usr/src/app
-# RUN apk add git && \ 
-#     # Clone the tornado app repo into the current WORKDIR
-#     git clone https://github.com/MohamedMSaeed/DevOps-Challenge-Demo-Code.git .
-#     # Install requirements
-
-# RUN  pip install -r requirements.txt
-# ENTRYPOINT [ "python3" ]
-
 FROM python:alpine
 
 WORKDIR /usr/src/app
