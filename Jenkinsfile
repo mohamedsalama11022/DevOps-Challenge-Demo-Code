@@ -9,7 +9,7 @@ pipeline
         }
         stage('docker-compose build & run') {
             steps {
-                sh "docker-compose build && docker-compose -p master_project up -d "
+                sh "/usr/local/bin/docker-compose build && /usr/local/bin/docker-compose -p master_project up -d"
             }
         }
     }
