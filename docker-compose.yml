@@ -3,7 +3,7 @@ services:
   tornado:
     build: .
     container_name: iti_challenge01_master
-    command: ["hello.py"]
+    command: ["DevOps-Challenge-Demo-Code/hello.py"]
     environment:
       - ENVIRONMENT=dev
       - HOST=localhost
