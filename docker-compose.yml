@@ -10,7 +10,7 @@ services:
       - REDIS_HOST=redis 
       - REDIS_PORT=6379
       - REDIS_DB=0
-      - ENVIRONMENT=dev 
+      - ENVIRONMENT=Production 
       - HOST=localhost
       - PORT=4222
     depends_on: 
