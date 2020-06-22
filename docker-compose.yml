@@ -4,7 +4,7 @@ services:
   tornado:
     build: .
     container_name: python_iti_challenge_master
-    command: ["hello.py"]
+    command: ["./hello.py"]
     
     environment: 
       - REDIS_HOST=redis 
